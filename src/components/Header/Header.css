@@ -1,0 +1,64 @@
+
+
+/* 
+display:
+flex, inline, block
+
+flex-direction (changing this swaps the axises):
+row, column
+
+justify-content (horizontal-axis):
+start, center, end, space-around, space-evenly, space-between
+
+allign-items (vertical-axis):
+start, center, end 
+*/
+
+body {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #252525;
+    margin: 0px;
+}
+
+#header {
+    /* text-align: right; */
+    padding: 15px;
+    padding-left: 760px;
+}
+
+.language-button {
+    background: none;
+    border: none;
+    font-size: 25;
+}
+
+.language-button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    #header {
+        display: flex;
+        justify-content: right;
+        padding: 15 20 0 0;
+    }
+    
+    .language-button {
+        background: none;
+        border: none;
+        font-size: 20;
+        padding: 5;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    
+}
